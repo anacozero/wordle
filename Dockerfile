@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1.3-labs
 FROM nginx:mainline-alpine
 
 COPY src/ /usr/share/nginx/html/
